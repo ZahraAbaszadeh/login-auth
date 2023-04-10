@@ -1,0 +1,137 @@
+.header {
+  width: 100%;
+  height: 11rem;
+  background: #fff;
+  box-shadow: 0 0.3rem 0.6rem 0 rgb(30 60 88 / 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+  padding: 0.5rem 2.5rem;
+}
+
+.header .topHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+  background: #fff;
+  font-family: iransans;
+  font-weight: 700;
+  padding: 0 2rem;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+
+.header .topHeader .logoBox img {
+  height: 5rem;
+  width: 5rem;
+  transition: 0.3s;
+  filter: drop-shadow(0px 0px 0px transparent);
+  border-radius: 50%;
+}
+
+.header .topHeader .logoBox img:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  filter: drop-shadow(1px 1px 5px #454545);
+}
+
+/* Nav Box */
+.header .topHeader .navBox ul {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.header .topHeader .navBox ul li a {
+  font-size: 1.3rem;
+  color: black;
+  transition: 0.3s;
+  font-weight: 500;
+  border-radius: 0rem;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+}
+
+.header .topHeader .navBox ul li a:hover {
+  transition: 0.3s;
+  border-radius: 1rem;
+  background-color: #fdbc0b;
+}
+
+
+
+.header .topHeader .userBox ul {
+  display: flex;
+  gap: 2.5rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 2.7rem;
+  padding-top: 1rem;
+}
+
+.header .topHeader .userBox  {
+  position: relative;
+}
+
+.header .topHeader .userBox svg {
+  color: black;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.header .topHeader .userBox  svg:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #1e3c58;
+  border-radius: 50%;
+}
+
+.header .topHeader .userBox  p {
+  position: absolute;
+  font-size: 1rem;
+  color: black;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header .topHeader .userBox .userIconBox {
+  position: relative;
+}
+
+.header .topHeader .userBox .userIconBox svg {
+  color: black;
+  border: 0.1rem solid transparent;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.header .topHeader .userBox .userIconBox svg:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #1e3c58;
+  border: 0.1rem solid black;
+  border-radius: 50%;
+}
+
+
+
+/* */
+
+
+
+@media screen and (max-width: 650px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}

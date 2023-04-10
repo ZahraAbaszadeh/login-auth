@@ -1,0 +1,17 @@
+.profileDetails{
+    margin-top: 3rem;
+    text-align: center;
+    color: #050d1c;
+}
+h1 {
+    font-size:2.5rem;
+}
+h2,h3 {
+    margin: 2rem 0;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size:2rem;
+}

@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "username": "zahra",
+      "firstName": "زهرا",
+      "lastName": "عباس زاده",
+      "password": "123456",
+      "role": "admin",
+      "createdAt": 1643375019984,
+      "id": 1
+    }
+  ],
+
+  "whoami": {
+    "username": "zahra",
+    "firstName": "زهرا",
+    "lastName": "عباس زاده",
+    "password": "123456",
+    "role": "admin",
+    "createdAt": 1643375019984,
+    "id": 1
+  },
+  "protection": {
+    "products.get": false,
+    "products.post": true,
+    "products.put": false,
+    "orders.post": true,
+    "upload": true,
+    "upload.get": false,
+    "products": "admin",
+    "orders": "admin",
+    "users": false,
+    "protection": "admin"
+  }
+}
