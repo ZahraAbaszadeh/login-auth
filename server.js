@@ -11,11 +11,6 @@ const jwt = require('jsonwebtoken');
 const AUTH_JWT_SECRET = 'TOP-SECRET';
 const AUTH_JWT_OPTIONS = {expiresIn: 60 * 60};
 
-// TODO: vaghti token nis, 200 mide
-// TODO: vaghti token nist, invalid nade (login api)
-// TODO: besorat pishfarz token baraye har api niaz nabashe vali baraye ye seri api niaz bash be sorat dasti set she
-// TODO: Handle 404 error message
-// TODO: Refactor refresh token mechanism
 
 // Load DB file for Authentication middleware and endpoints
 const DB = JSON.parse(fs.readFileSync(path.join(__dirname, './db.json'), 'utf-8'));
